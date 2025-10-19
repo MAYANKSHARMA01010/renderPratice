@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     res.send('Hello, World!');
 });
 
-app.get('home', (req, res) => {
+app.get('/home', (req, res) => {
     res.send('Welcome to the Home Page!');
 });
 
